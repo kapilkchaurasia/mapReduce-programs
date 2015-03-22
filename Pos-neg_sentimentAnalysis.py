@@ -32,6 +32,7 @@ class smAnalysis(MRJob):
 	def smareducer(self,word,count):
 		yield word,sum(count)
 
+
 	
 	def steps(self):
 		return [self.mr(mapper_init=self.init,
