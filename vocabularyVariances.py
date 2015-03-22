@@ -10,7 +10,6 @@ WORD_RE = re.compile(r"[\w']+")
 
 class smAnalysis(MRJob):
 
-
 	def init(self):
 		
 		self.fileid=stopwords.words('english')
