@@ -16,6 +16,7 @@ class mostfrequent(MRJob):
 			self.map.setdefault(word,0)
 			self.map[word]=self.map[word]+1
 	
+	
 
 	def mapperfinal(self):
 		for word,val in self.map.iteritems():
